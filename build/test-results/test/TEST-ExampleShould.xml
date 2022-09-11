@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ExampleShould" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-09-11T10:15:13" hostname="LAPTOP-U79Q27T1" time="0.031">
-  <properties/>
-  <testcase name="return_true()" classname="ExampleShould" time="0.031"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

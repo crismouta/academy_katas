@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="FizzBuzzShould" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-09-11T10:37:39" hostname="LAPTOP-U79Q27T1" time="0.04">
+  <properties/>
+  <testcase name="[1] 1, 1" classname="FizzBuzzShould" time="0.034"/>
+  <testcase name="[2] 2, 2" classname="FizzBuzzShould" time="0.001"/>
+  <testcase name="[3] 4, 4" classname="FizzBuzzShould" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
