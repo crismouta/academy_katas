@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="FizzBuzzShould" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-09-11T10:37:39" hostname="LAPTOP-U79Q27T1" time="0.04">
+<testsuite name="FizzBuzzShould" tests="10" skipped="0" failures="0" errors="0" timestamp="2022-09-11T10:51:08" hostname="LAPTOP-U79Q27T1" time="0.039">
   <properties/>
-  <testcase name="[1] 1, 1" classname="FizzBuzzShould" time="0.034"/>
+  <testcase name="[1] 1, 1" classname="FizzBuzzShould" time="0.028"/>
   <testcase name="[2] 2, 2" classname="FizzBuzzShould" time="0.001"/>
   <testcase name="[3] 4, 4" classname="FizzBuzzShould" time="0.001"/>
+  <testcase name="[4] 3, Fizz" classname="FizzBuzzShould" time="0.001"/>
+  <testcase name="[5] 6, Fizz" classname="FizzBuzzShould" time="0.001"/>
+  <testcase name="[6] 9, Fizz" classname="FizzBuzzShould" time="0.001"/>
+  <testcase name="[7] 5, Buzz" classname="FizzBuzzShould" time="0.001"/>
+  <testcase name="[8] 10, Buzz" classname="FizzBuzzShould" time="0.001"/>
+  <testcase name="[9] 15, FizzBuzz" classname="FizzBuzzShould" time="0.0"/>
+  <testcase name="[10] 30, FizzBuzz" classname="FizzBuzzShould" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

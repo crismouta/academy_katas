@@ -37,13 +37,83 @@ public class FizzBuzzShould {
     @CsvSource({
             "1,1",
             "2,2",
-            "4,4"
+            "4,4",
+            "3, 'Fizz'",
+            "6, 'Fizz'",
+            "9, 'Fizz'",
+            "5, 'Buzz'",
+            "10, 'Buzz'",
+            "15, 'FizzBuzz'",
+            "30, 'FizzBuzz'",
+
     })
     void convert_number_to_FizzBuzz_string(int input, String expectedOutput) {
         FizzBuzz fizzBuzz = new FizzBuzz();
 
         String result = fizzBuzz.convert(input);
+
         assertEquals(expectedOutput, result);
     }
+
+
+    /*@Test
+    public void convert_number_3_to_Fizz() {
+        FizzBuzz fizzBuzz = new FizzBuzz();
+
+        String result = fizzBuzz.convert(3);
+
+        assertEquals("Fizz", result);
+
+    }
+
+    @Test
+    public void convert_number_6_to_Fizz() {
+        FizzBuzz fizzBuzz = new FizzBuzz();
+
+        String result = fizzBuzz.convert(6);
+
+        assertEquals("Fizz", result);
+
+    }
+
+    @Test
+    public void convert_number_9_to_Fizz() {
+        FizzBuzz fizzBuzz = new FizzBuzz();
+
+        String result = fizzBuzz.convert(9);
+
+        assertEquals("Fizz", result);
+
+    }*/
+
+    /*@Test
+    public void convert_number_5_to_Buzz() {
+        FizzBuzz fizzBuzz = new FizzBuzz();
+
+        String result = fizzBuzz.convert(5);
+
+        assertEquals("Buzz", result);
+
+    }
+
+    @Test
+    public void convert_number_10_to_Buzz() {
+        FizzBuzz fizzBuzz = new FizzBuzz();
+
+        String result = fizzBuzz.convert(10);
+
+        assertEquals("Buzz", result);
+
+    }*/
+
+    /*@Test
+    public void convert_number_15_to_FizzBuzz() {
+        FizzBuzz fizzBuzz = new FizzBuzz();
+
+        String result = fizzBuzz.convert(15);
+
+        assertEquals("FizzBuzz", result);
+
+    }*/
 
 }
